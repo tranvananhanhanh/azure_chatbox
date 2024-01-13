@@ -6,20 +6,15 @@ from openai import AzureOpenAI
 from quickstart import client
 from flask_cors import cross_origin
 from flask import Flask, render_template, request
-from voice import text_to_speech
+from flask_sqlalchemy import SQLAlchemy
 
-
-
-
-# Load environment variables
-load_dotenv()
-
-
-# Create Flask app
 app = Flask(__name__)
 
+load_dotenv()
 
-# Print the OpenAI API key for debugging purposes
+# Create Flask app
+
+
 print(client.api_key)
 
 # Define the route for the homepage
@@ -55,6 +50,33 @@ def get_response():
         print(f"Error: {e}")
         return jsonify({'response': 'Error in processing the response'})
 
+
+# Define the route for handling user input and providing responses
+@app.route('/get_response_sum_up', methods=['POST'])
+def get_response_sum_up():
+    user_input = request.form['user_input']
+
+    # Use OpenAI's GPT model for summarization
+    response = client.chat.completions.create(
+    model="GPT35TURBO16K",
+    messages=[
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": 'find key words in this text : ' + user_input},],
+
+)
+
+
+    try:
+        response_content =response.choices[0].message.content
+        return jsonify({'response': response_content})
+    except TypeError as e:
+        print(f"Error: {e}")
+        return jsonify({'response': 'Error in processing the response'})
+
+
+
+
+
 # Run the app if the script is executed
 if __name__ == '__main__':
-    app.run(debug=True,port=1700)
+    app.run(debug=True,port=1710)

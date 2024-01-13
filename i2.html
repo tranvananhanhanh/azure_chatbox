@@ -44,6 +44,8 @@
         <button onclick="copyText()" class="copy-1-BKi" id="copyButton">Copy</button>
         <button onclick="text_to_speech()" class="text-to-speech-1-BKi" id="textToSpeechButton">Speak</button>
         <button onclick="startSpeechRecognition()" class="speech-to-text-1-BKi" id="speechToTextButton">Start Speech Recognition</button>
+        <button onclick="sumUp()" class="speech-to-text-1-BKi" id="sumUpButton">Sum Up</button>
+
 
     </div>
     
@@ -139,6 +141,22 @@ function text_to_speech() {
     var voices = window.speechSynthesis.getVoices()
     msg.voice = voices[0]
     window.speechSynthesis.speak(msg)
+}
+
+function sumUp() {
+    // Gửi yêu cầu tới route mới đã thêm
+    fetch('/get_response_sum_up', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: 'user_input=' + encodeURIComponent(curren_text),
+    })
+    .then(response => response.text())
+    .then(data => {
+        console.log(data);
+        alert("Sum Up : "+data);
+    });
 }
 
 
