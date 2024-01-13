@@ -56,19 +56,17 @@ def get_response():
         return jsonify({'response': 'Error in processing the response'})
 
 cross_origin()
-@app.route('/text_to_speech', methods=['POST'])
+@app.route('/text_to_speech', methods=['POST', 'GET'])
 def text_to_speech_route():
     if request.method == 'POST':
         text = request.form['speech']
-        gender = request.form['voices']
-        rate = request.form['rate']
-        volum = request.form['volum']
+        gender = 'male'
+        rate = 200
+        volum = 0.1
         text_to_speech(text, gender, rate, volum)
         return jsonify({'status': 'success'})
     else:
         return jsonify({'status': 'error', 'message': 'Invalid request method'})
-
-
 
 # Run the app if the script is executed
 if __name__ == '__main__':

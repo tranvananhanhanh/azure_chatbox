@@ -1,0 +1,486 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 128rem;
+}.main-fxQ {
+  width: 100%;
+  height: 103.8rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.main-fxQ .background-5FS {
+  box-sizing: border-box;
+  padding: 3.4rem 3.282rem 44.3rem 9.2rem;
+  width: 100.7rem;
+  height: 135.9rem;
+  position: absolute;
+  left: 27.3rem;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/hnh-nn-bg.png');
+}
+.main-fxQ .background-5FS .i-mu-nn-button-Csn {
+  margin: 0rem 0rem 3.4rem 82.5rem;
+  box-sizing: border-box;
+  padding: 0.9rem 0.918rem 0.8rem 0.9rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/i-mu-nn.png');
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .i-mu-nn-button-Csn .icon-mu-fFa {
+  width: 3.9rem;
+  height: 3.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.8rem;
+}
+.main-fxQ .background-5FS .my-prompt-XHn {
+  margin: 0rem 6.118rem 5rem 0rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .untitled-prompt-aG4 {
+  margin: 0rem 71.418rem 1.3rem 0rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.175;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE {
+  margin: 0rem 8.318rem 2.2rem 0rem;
+  box-sizing: border-box;
+  padding: 2.3rem 1.6rem 1.5rem 2.6rem;
+  width: 79.9rem;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-gj1k-iWg {
+  margin: 0rem 4.7rem 2.6rem 0rem;
+  width: calc(100% - 4.7rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-gj1k-iWg .ava-chatbot-1-21a {
+  margin-right: 2.6rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: #9b00fa;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-gj1k-iWg .this-line-is-a-comment-it-wont-be-copied-to-the-clipboard-or-sent-to-chatgpt-w8Y {
+  max-width: 64.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS {
+  height: 3.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS .rate-1-jKJ {
+  margin: 0rem 1.4rem 0.1rem 0rem;
+  width: 7.4rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS .sum-up-1-8MS {
+  margin: 0rem 1.4rem 0.1rem 0rem;
+  width: 7.4rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS .copy-1-BKi {
+  margin: 0.1rem 1.2rem 0rem 0rem;
+  box-sizing: border-box;
+  padding: 0.05rem 1rem 0.05rem 1.4rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS .copy-1-BKi .fluent-copy-20-regular-4PW {
+  margin: 0rem 0.8rem 0.1rem 0rem;
+  width: 1.2rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS .copy-1-BKi .copy-MtQ {
+  margin-bottom: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS .text-to-speech-1-Ldr {
+  margin: 0.1rem 0;
+  box-sizing: border-box;
+  padding: 0.1rem 1.7rem;
+  height: calc(100% - 0.2rem);
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chatbot-1-dVE .auto-group-fs7x-owS .text-to-speech-1-Ldr .snapedit1705041549773-1-GXW {
+  width: 3.5rem;
+  height: 2.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.main-fxQ .background-5FS .user-1-3wa {
+  margin: 0rem 8.118rem 4rem 0.2rem;
+  box-sizing: border-box;
+  padding: 2rem 50.8rem 1.6rem 1.7rem;
+  width: calc(100% - 8.3176rem);
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .user-1-3wa .ellipse-2-wXA {
+  margin-right: 2.6rem;
+  width: 4rem;
+  height: 4rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-2-bg.png');
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .user-1-3wa .write-me-a-joke-about-bLp {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 {
+  margin: 0rem 7.918rem 2rem 0rem;
+  box-sizing: border-box;
+  padding: 1.7rem 1.6rem 2.7rem 2.6rem;
+  width: 79.9rem;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-bbr6-19e {
+  margin: 0rem 6.2rem 1.9rem 0rem;
+  width: calc(100% - 6.2rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-bbr6-19e .ava-chatbot-2-Xdn {
+  margin-right: 2.6rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: #9b00fa;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-bbr6-19e .the-subject-below-is-a-variable-after-saving-your-prompt-its-value-anything-after-the-equals-sign-will-be-cleared-when-you-close-or-refresh-the-page-eCc {
+  max-width: 62.9rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn {
+  height: 3.4rem;
+  display: flex;
+  column-gap: 1.4rem;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn .rate-2-CtL {
+  margin-top: 0.2rem;
+  width: 7.4rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn .sum-up-2-SGt {
+  margin: 0.1rem 0;
+  width: 7.4rem;
+  height: calc(100% - 0.2rem);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn .copy-2-JK6 {
+  margin-bottom: 0.2rem;
+  box-sizing: border-box;
+  padding: 0.1rem 1rem 0.1rem 1.4rem;
+  display: flex;
+  align-items: center;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn .copy-2-JK6 .fluent-copy-20-regular-Npk {
+  margin-right: 0.8rem;
+  width: 1.2rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn .copy-2-JK6 .copy-4xU {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn .text-to-speech-2-afv {
+  margin-bottom: 0.3rem;
+  box-sizing: border-box;
+  padding: 0.1rem 1.7rem;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .chat-bot-2-JW8 .auto-group-pubt-hRn .text-to-speech-2-afv .snapedit1705041549773-1-VXz {
+  width: 3.5rem;
+  height: 2.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.main-fxQ .background-5FS .user-2-MaC {
+  margin: 0rem 8.118rem 2.7rem 0.2rem;
+  box-sizing: border-box;
+  padding: 2.1rem 59rem 1.5rem 1.7rem;
+  width: calc(100% - 8.3176rem);
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .user-2-MaC .ellipse-2-Mic {
+  margin-right: 2.6rem;
+  width: 4rem;
+  height: 4rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-2-bg-fp8.png');
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .user-2-MaC .airplane-food-qdn {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .enter--wB2 {
+  margin: 0rem 8.118rem 0rem 0.2rem;
+  box-sizing: border-box;
+  padding: 2.7rem 3.113rem 2.513rem 3.1rem;
+  width: calc(100% - 8.3176rem);
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #ffffff;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .enter--wB2 .how-can-i-help-you-mvk {
+  margin: 0rem 53.1rem 0.087rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a0a0a0;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .background-5FS .enter--wB2 .vector-4ex {
+  margin-top: 0.1rem;
+  width: 2.687rem;
+  height: 2.687rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.main-fxQ .menu-and-feature-XYY {
+  box-sizing: border-box;
+  padding: 12.5rem 3.6rem 54.5rem 5.7rem;
+  width: 28.3rem;
+  height: 103.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  background-color: #000000;
+}
+.main-fxQ .menu-and-feature-XYY .menu-1Ti {
+  margin: 0rem 2.1rem 4.9rem 0rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .menu-and-feature-XYY .new-promt-pAG {
+  margin: 0rem 1.6rem 14.8rem 0rem;
+  width: 16.8rem;
+  height: 4.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4285714286;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .menu-and-feature-XYY .feature-cbv {
+  margin: 0rem 2.6rem 3.9rem 0rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-fxQ .menu-and-feature-XYY .sum-up-history-WSQ {
+  width: 100%;
+  height: 4.6rem;
+  position: relative;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.main-fxQ .menu-and-feature-XYY .sum-up-history-WSQ .rectangle-2992-FPz {
+  width: 16.8rem;
+  height: 4.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #9b00fa;
+  border-radius: 1rem;
+}
+.main-fxQ .menu-and-feature-XYY .sum-up-history-WSQ .sum-up-history-aSG {
+  width: 10.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 3.7rem;
+  top: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4285714286;
+  color: #ffffff;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
